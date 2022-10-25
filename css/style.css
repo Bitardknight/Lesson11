@@ -1,0 +1,121 @@
+.wrapper{
+   position: relative;
+   overflow: hidden;
+   min-height: 100%;
+   }
+   .header{
+background-color: blue;
+position: fixed;
+width: 100%;
+   z-index: 20;
+
+}
+
+.header__container{
+   max-width: 800px;
+margin: 0 auto;
+}
+
+.menu__item{
+   position: relative;
+   display: inline-block;
+   
+}
+
+.menu__item:hover .sub-menu{
+opacity: 1;
+visibility: visible;
+}
+
+.sub-menu{
+   opacity: 0;
+   visibility: hidden;
+background-color: brown;
+top: 10px;
+}
+
+.auto{
+   margin-top: 50px;
+}
+
+.car{
+   max-width: 800px;
+   margin:0 auto;
+background-image: url("..img/road.jpg");
+background: url("../img/road.jpg") no-repeat 0 0 
+}
+
+.car__1{
+	height: 100px;
+	width: 200px;
+background-color: red;
+position: relative;
+left:100px;
+
+}
+
+
+
+.car__2{
+	height: 100px;
+	width: 400px;
+background-color: red;
+position: relative;
+text-align: center;
+}
+
+ .car__3{
+height: 100px;
+ width: 100px;
+border-radius: 50%;
+background-color: black;
+bottom:50px;
+position: relative;
+left:50px;
+} 
+
+
+
+ .car__4{
+height: 100px;
+ width:100px;
+border-radius: 50%;
+background-color: black;
+left:250px;
+position: relative;
+bottom:150px;
+}
+
+.car__5{
+   height: 80px;
+	width: 80px;
+background-color: blueviolet;
+position: relative;
+bottom:380px;
+left:200px;
+}
+
+.car__6{
+   height: 80px;
+	width: 80px;
+background-color: blueviolet;
+position: relative;
+left:110px;
+bottom:460px;
+
+}
+
+.block{
+
+height: 1000px;
+}
+
+.block__in{
+   position: fixed;
+bottom: 0;
+right: 0;
+background-color: green;
+font-size: 40px;
+}
+
+
